@@ -1,0 +1,44 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+}
+  td {
+    border: 2px solid #CCC;
+    height: 1px;
+    width: 15vw;
+  }
+    div {
+      padding: 1em;
+      text-align: center;
+      cursor: pointer;
+      font-weight: bold;
+      height: 100%;
+    
+    }
+      
+      .winner {
+        cursor: no-drop;
+      }
+
+td > div {
+  width: 15vw;
+}
+.hidden {
+  display: none;
+}
+.selected {
+  color: #060;
+  background: #cfc;
+  width: 15vw;
+}
+
+.section-toggle {
+  cursor: pointer;
+}
+
+.error {
+  background-color: #fdd;
+}
